@@ -1,0 +1,12 @@
+@mixin font-face($name) {
+  @font-face {
+    font-family: $name;
+    src: url('fonts/#{$name}.ttf?') format('ttf');
+  }
+}
+
+@include font-face('JosefinSans-Regular');
+
+body {
+  font-family: 'JosefinSans-Regular';
+}
