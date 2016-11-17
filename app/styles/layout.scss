@@ -1,0 +1,30 @@
+body,
+html {
+  height: 100%;
+  position: relative;
+  width: 100%;
+  background-color: #c9f4f4
+}
+
+.title-header {
+  text-align: center;
+}
+
+.subtitle {
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin: auto;
+  max-height: 10em;
+  max-width: 10em;
+}
+
+footer {
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  position: fixed;
+  right: 0;
+}
