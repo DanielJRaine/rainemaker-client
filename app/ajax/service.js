@@ -1,7 +1,7 @@
 import Ember from 'ember';
 import AjaxService from 'ember-ajax/services/ajax';
 
-import ENV from 'ga-wdi-boston.rainemaker-client/config/environment';
+import ENV from 'rainemaker-client/config/environment';
 
 export default AjaxService.extend({
   host: ENV.apiHost,

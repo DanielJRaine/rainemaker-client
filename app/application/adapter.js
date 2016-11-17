@@ -1,4 +1,4 @@
-import ENV from 'ga-wdi-boston.rainemaker-client/config/environment';
+import ENV from 'rainemaker-client/config/environment';
 import ActiveModelAdapter from 'active-model-adapter';
 
 import Ember from 'ember';

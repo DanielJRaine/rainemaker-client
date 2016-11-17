@@ -3,10 +3,11 @@
 module.exports = function (environment) {
   'use strict';
   const ENV = {
-    modulePrefix: 'ga-wdi-boston.rainemaker-client',
+    modulePrefix: 'rainemaker-client',
     environment: environment,
     rootURL: '/',
     locationType: 'auto',
+    apiHost: 'https://rainemaker-api.herokuapp.com/',
     EmberENV: {
       FEATURES: {
         // Here you can enable experimental features on an ember canary build
@@ -50,6 +51,7 @@ module.exports = function (environment) {
 
   if (environment === 'production') {
     ENV.locationType = 'hash';
+    ENV.apiHost = 'https://rainemaker-api.herokuapp.com/';
   }
 
   return ENV;
