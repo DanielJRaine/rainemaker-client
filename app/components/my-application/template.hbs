@@ -20,13 +20,14 @@
     </div>
   </div>
 </nav>
-
-<h1>Welcome to Ember!</h1>
-
-{{#each flashMessages.queue as |flash|}}
-  {{flash-message flash=flash}}
-{{/each}}
-
+<div class="container">
+  <div class="row">
+    <h2 class="col-lg-5 col-lg-offset-4 col-md-5 col-md-offset-4 col-sm-5 col-sm-offset-4 col-xs-5 col-xs-offset-4">Welcome to RaineMaker</h2>
+  </div>
+  {{#each flashMessages.queue as |flash|}}
+    {{flash-message flash=flash}}
+  {{/each}}
+</div>
 <div class="col-md-8 col-md-offset-2">
   {{outlet}}
 </div>
